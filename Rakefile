@@ -5,11 +5,15 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "mollie-ideal"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{Ruby API for iDEAL with Mollie}
+    gem.description = %Q{Ruby API for iDEAL with Mollie}
     gem.email = "peter@pero-ict.nl"
-    gem.homepage = "http://github.com/PeterBerkenbosch/mollie-ideal"
-    gem.authors = ["Peter Berkenbosch"]
+    gem.homepage = "http://github.com/pero-ict/mollie-ideal"
+    gem.authors = ["PeRo ICT Solutions"]
+    gem.add_dependency 'crack', '>= 0.1.4'
+    gem.add_dependency 'httparty', '>= 0.4.5'
+    gem.add_dependency 'mash', '>= 0.1.1'
+    gem.add_development_dependency 'fakeweb'
     gem.add_development_dependency "rspec", ">= 1.2.9"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end

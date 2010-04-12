@@ -1,6 +1,7 @@
 = mollie-ideal
 
-Description goes here.
+Ruby API for accessing the ideal interface for mollie. 
+
 
 == Note on Patches/Pull Requests
  
